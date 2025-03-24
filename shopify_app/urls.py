@@ -8,3 +8,4 @@ urlpatterns = [
     path('finalize/', views.finalize, name='shopify_app_login_finalize'),
     path('logout/', views.logout, name='shopify_app_logout'),
 ]
+ 
