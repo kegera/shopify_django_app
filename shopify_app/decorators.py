@@ -11,3 +11,4 @@ def shop_login_required(fn):
         return fn(request, *args, **kwargs)
     wrapper.__name__ = fn.__name__
     return wrapper
+ 
