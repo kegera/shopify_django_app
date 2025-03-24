@@ -25,3 +25,4 @@ class LoginProtection(object):
         shopify.ShopifyResource.clear_session()
         return response
 
+ 
